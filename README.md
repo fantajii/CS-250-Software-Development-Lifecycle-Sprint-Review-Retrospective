@@ -1,4 +1,4 @@
-# CS-250-Software-Development-Lifecycle-Sprint-Review-Retrospective
+# SNHU Travel Development Project: Retrospective & Executive Presentation
 
 **Author:** Garrett Mandeville  
 **Course:** CS 250: Software Development Lifecycle  
@@ -7,52 +7,44 @@
 
 ---
 
-## Executive Summary
-This repository contains the software artifacts, retrospective analysis, and architectural design deliverables for the SNHU Travel pilot project. As part of ChadaTech’s organizational transition from a legacy Waterfall development model to an enterprise Scrum-Agile framework, our team executed a full software development lifecycle (SDLC) pilot building a modern desktop application for SNHU Travel.
+## Overview
+This repository serves as a centralized documentation hub for the final deliverables of the **SNHU Travel Development Project** pilot. The project evaluated ChadaTech’s organizational shift from a traditional, sequential Waterfall development model to an iterative, enterprise Scrum-Agile framework.
 
-Throughout the project, team members systematically rotated through core Scrum roles—**Product Owner**, **Scrum Master**, and **Development Team**—to evaluate team velocity, backlog management, sprint execution, and adaptability under changing requirements.
-
----
-
-## Key Highlights & SDLC Execution
-
-### 1. Scrum Role Application
-* **Product Owner (PO):** Established feature vision, created and prioritized the Product Backlog based on client destination/pricing needs, defined explicit Acceptance Criteria, and established the Definition of Done (DoD).
-* **Scrum Master (SM):** Facilitated Scrum events (Planning, Standups, Reviews, Retrospectives), removed technical blockers (e.g., resolving Java image relative path binding issues), and shielded the team from mid-sprint scope creep.
-* **Development Team:** Operated as a self-organizing unit translating backlog items into functional code increments, performing peer code reviews, writing unit tests, and ensuring shippable quality per sprint.
-
-### 2. User Story Execution (INVEST Criteria)
-Features were decomposed into granular user stories following the INVEST model (Independent, Negotiable, Valuable, Estimable, Small, Testable).
-* **Example Story:** *"As a travel client, I want to view detailed descriptions and photos of popular destinations so that I can compare vacation options."*
-* Breakdowns were estimated using story points, implemented over two-week sprint iterations, verified via automated unit testing, and validated by the Product Owner prior to release.
-
-### 3. Handling Scope Changes & Interruptions
-Mid-project stakeholder feedback required changes to destination filtering and image asset management. Under Waterfall, this would have triggered formal Change Control Board (CCB) delays and schedule slippage. Under Scrum:
-1. Active sprint backlogs were protected from immediate disruption.
-2. The Product Owner added and prioritized new filtering requirements in the master backlog for the subsequent sprint.
-3. Loosely coupled modular architecture allowed integration with minimal refactoring.
-
-### 4. Collaborative Artifacts & Communication
-* Utilized visual management (Jira boards, burn-down charts) and time-boxed 15-minute daily standups for real-time impediment resolution.
-* Maintained direct PO-Developer communication loops to refine user story acceptance criteria instantly (e.g., clarifying UI range-slider redraw behaviors).
+Rather than hosting source code repositories, this project submission contains the synthesized executive retrospective paper and leadership presentation detailing role governance, iterative SDLC execution, risk management, and empirical methodology comparisons.
 
 ---
 
-## Agile Methodology Evaluation
+## Repository Deliverables
 
-| Evaluation Metric | Scrum-Agile Findings |
-| :--- | :--- |
-| **Key Pros** | High adaptability to evolving requirements, early defect detection via continuous integration, transparent client feedback loops, increased team ownership. |
-| **Key Cons / Risks** | Requires strict time-boxing to prevent meeting fatigue; requires consistent, active participation from a dedicated Product Owner. |
-| **Recommendation** | **Decisively Recommended.** Scrum-Agile is the optimal approach for user-facing, high-volatility software projects. Recommended full organizational transition across ChadaTech. |
+### 1. `Sprint Review And Retrospective.docx`
+A 3- to 4-page formal academic report (APA format) analyzing the team's performance throughout the SNHU Travel pilot project:
+* **Scrum Roles in Practice:** Evaluates team dynamics and rotation across Product Owner, Scrum Master, and Development Team roles.
+* **INVEST User Story Execution:** Details how business requirements were decomposed into independent, testable user stories and validated through sprint iterations.
+* **Scope Management & Interruptions:** Examines how mid-project changes to destination filtering and image asset management were absorbed into subsequent sprint backlogs without disturbing active development.
+* **Collaborative Tools & Ceremonies:** Highlights the operational impact of Jira visual boards, burn-down metrics, daily standups, sprint reviews, and retrospectives.
+* **Methodology Evaluation:** Summarizes the pros, cons, and formal recommendation to transition ChadaTech's remaining teams to Scrum-Agile.
+
+### 2. `Modernizing Software at Chada Tech.pptx`
+A 6-slide executive presentation created for ChadaTech leadership to support organizational decision-making:
+* **Agile Team Governance:** Breaks down core responsibilities for Product Owner, Scrum Master, and self-organizing Development Teams.
+* **Iterative SDLC Execution:** Illustrates concurrent execution of Requirements, Evolutionary Architecture, Time-boxed Sprints, Continuous Testing/QA, and Incremental Deployment.
+* **Waterfall vs. Agile Comparative Matrix:** Analyzes structural differences in requirements, flow, change control, risk profiles, and stakeholder feedback loops (including real-world UI adjustment examples from SNHU Travel).
+* **Strategic Decision Framework:** Defines key criteria for selecting Agile vs. Waterfall across client projects.
+* **Academic References:** Fully audited and hyperlinked academic citations (Schwaber & Sutherland, Rigby et al., Cockburn, Highsmith).
 
 ---
 
-## Repository Contents
-* `Sprint Review And Retrospective.docx` - Full academic narrative report (APA format) analyzing project execution, roles, tools, and methodology comparison.
-* `Agile Presentation.pptx` - Executive slideshow presented to ChadaTech leadership detailing role breakdowns, SDLC iterative phases, Waterfall vs. Agile comparative metrics, and decision frameworks.
+## Key Project Takeaways
+
+| Metric / Dimension | Traditional Waterfall | Modern Scrum-Agile (Pilot Outcome) |
+| :--- | :--- | :--- |
+| **Requirements Management** | Fixed, extensive upfront specs | Dynamic, continuously refined Product Backlog |
+| **Development Cadence** | Linear, sequential phase gates | Parallel, iterative 2-week sprint loops |
+| **Change Integration** | High resistance via CCB review | Seamless backlog re-prioritization |
+| **Risk Profile** | High late-stage integration risk | Mitigated continuously via automated testing & continuous integration |
+| **Client Feedback** | Delayed until final delivery | End of every sprint demonstration |
 
 ---
 
-## License & Course Context
-Developed for CS 250: Software Development Lifecycle at Southern New Hampshire University (SNHU).
+## Course Context
+Developed for **CS 250: Software Development Lifecycle** at Southern New Hampshire University (SNHU).
